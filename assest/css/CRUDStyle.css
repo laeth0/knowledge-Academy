@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #0c192c;
+    position: relative;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #AAA;
+/* background-color: aliceblue; */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #AAA;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #AAA;
+}
+
+/* start bubbles */
+span{
+    position: absolute;
+    z-index: -9999;
+    width: 30px;
+    height: 30px;
+    background-color: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+    animation: animate linear infinite;
+    animation-duration: calc(125s / var(--i) );
+    right: calc(100% - var(--i));
+}
+span:nth-child(even){
+    background-color: #dc3545;
+    box-shadow: 0 0 0 10px #dc354544,
+    0 0 50px #dc3545, 
+    0 0 100px #dc3545;
+}
+@keyframes animate {
+    from{
+        transform: scale(0);
+        bottom:0;
+    }
+    to{
+        transform: scale(1);
+        bottom: 100%;
+    }
+}
+/* end bubbles */
+
+
+/* start crud */
+.crud form .form-group input{
+    height:0;
+    transition: 1s;
+    outline: none;
+    border: none;
+    background: #444;
+    color: #AAA;
+
+}
+.crud form .form-group label{
+    font-size:  1.5rem;
+    transition: 1s;
+    width: fit-content;
+    margin: auto;
+
+}
+.crud form .form-group:hover input{
+    height: 2.25rem;
+    background: fixed;
+
+}
+.crud form .form-group:hover label{
+    font-size:0;
+}
+.crud input.Search{
+    background: fixed;
+    color: #AAA;
+    box-shadow: none;
+    border: none !important;
+    outline: none !important;
+    width: 40%;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>*{
+    color: white;
+}
+
+.crud label.Search-Name,.crud label.Search-Category{
+    border: #FFF 2px solid;
+    width: 49%;
+    cursor: pointer;
+}
+
+.crud button#DeleteAllBtn{
+    display: none;
+}
+
+.crud form input#Update{
+    display: none;
+}
+.crud a{
+    display: none;
+}
+
+
+
+/* end crud */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

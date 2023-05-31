@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #0c192c;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* start bubbles */
+span{
+    position: absolute;
+    z-index: -9999;
+    width: 30px;
+    height: 30px;
+    background-color: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc, 
+    0 0 100px #4fc3dc;
+    animation: animate linear infinite;
+    animation-duration: calc(125s / var(--i) );
+    right: calc(100% - var(--i));
+}
+span:nth-child(even){
+    background-color: #dc3545;
+    box-shadow: 0 0 0 10px #dc354544,
+    0 0 50px #dc3545, 
+    0 0 100px #dc3545;
+}
+@keyframes animate {
+    from{
+        transform: scale(0);
+        bottom:0;
+    }
+    to{
+        transform: scale(1);
+        bottom: 100%;
+    }
+}
+/* end bubbles */

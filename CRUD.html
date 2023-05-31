@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assest/img/shiar.png">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assest/css/all.min.css">
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css">
+    <!-- sweet alert -->
+    <link rel="stylesheet" href="assest/css/sweetalert2.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assest/css/CRUDStyle.css">
+
+</head>
+<body>
+    <!-- start bubbles  -->
+        <span style="--i:11; right: 2.5%;"></span>
+        <span style="--i:12;right: 5%;"></span>
+        <span style="--i:24;right: 7.5%;"></span>
+        <span style="--i:10;right: 10%;"></span>
+        <span style="--i:14;right: 12.5%;"></span>
+        <span style="--i:23;right: 15%;"></span>
+        <span style="--i:18;right: 17.5%;"></span>
+        <span style="--i:16;right: 20%;"></span>
+        <span style="--i:19;right: 22.5%;"></span>
+        <span style="--i:20;right: 25%;"></span>
+        <span style="--i:22;right: 27.5%;"></span>
+        <span style="--i:25;right: 30%;"></span>
+        <span style="--i:18;right: 32.5%;"></span>
+        <span style="--i:21;right: 35%;"></span>
+        <span style="--i:15;right: 37.5%;"></span>
+        <span style="--i:13;right: 40%;"></span>
+        <span style="--i:26;right: 42.5%;"></span>
+        <span style="--i:17;right: 45%;"></span>
+        <span style="--i:13;right: 47.5%;"></span>
+        <span style="--i:28;right: 50%;"></span>
+        <span style="--i:11;right: 52.5%;"></span>
+        <span style="--i:12;right: 55%;"></span>
+        <span style="--i:24;right: 57.5%;"></span>
+        <span style="--i:10;right: 60%;"></span>
+        <span style="--i:14;right: 62.5%;"></span>
+        <span style="--i:23;right: 65%;"></span>
+        <span style="--i:18;right: 67.5%;"></span>
+        <span style="--i:16;right: 70%;"></span>
+        <span style="--i:19;right: 72.5%;"></span>
+        <span style="--i:20;right: 75%;"></span>
+        <span style="--i:22;right: 77.5%;"></span>
+        <span style="--i:25;right: 80%;"></span>
+        <span style="--i:18;right: 82.5%;"></span>
+        <span style="--i:21;right: 85%;"></span>
+        <span style="--i:15;right: 87.5%;"></span>
+        <span style="--i:13;right: 90%;"></span>
+        <span style="--i:26;right: 92.5%;"></span>
+        <span style="--i:17;right: 95%;"></span>
+        <span style="--i:13;right: 97.5%;"></span>
+        <span style="--i:28;right: 100%;"></span>
+        <!-- end bubbles  -->
+
+
+<div class="crud">
+    <div class="container">
+        <h1 class="text-white text-center mt-5 text-capitalize">knowledge academy</h1>
+        <p class="text-white text-center mt-2 mb-4 text-capitalize">please choose your courses</p>
+
+        <form action="">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label id="LableUserName" class="text-white  d-block text-capitalize " for="UserName">user name</label>
+                        <input type="text" id="UserName" class="w-100" placeholder="Your Name"/>
+                        <p class="ParaUserName text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label id="LableCourseName" class="text-white  d-block text-capitalize" for="CourseName">course name</label>
+                        <input type="text" id="CourseName" class="w-100" placeholder="Course Name"/>
+                        <p class="ParaCourseName text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label id="LableUserEmail" class="text-white  d-block text-capitalize" for="UserEmail">user email</label>
+                        <input type="email" id="UserEmail" class="w-100" placeholder="Your Email"/>
+                        <p class="ParaUserEmail text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label id="LableCourseCategory" class="text-white d-block text-capitalize" for="CourseCategory">course category</label>
+                        <input type="text" id="CourseCategory" class="w-100" placeholder="Moblie App or Web App"/>
+                        <p class="ParaCourseCategory text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label id="LablePhoneNumber" class="text-white  d-block text-capitalize" for="PhoneNumber">phone number</label>
+                        <input type="number" id="PhoneNumber" class="w-100" placeholder="Your Phone Number"/>
+                        <p class="ParaPhoneNumber text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label id="LableNotes" class="text-white  d-block  text-capitalize" for="Notes">notes</label>
+                        <input type="text" id="Notes" class="w-100" placeholder="Any Notes For Course"/>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" id="AddCourse"  value="Add Course"  class="btn btn-outline-secondary mt-3" />
+            <input type="submit" id="Update" value="Update Course" class="btn btn-outline-info mt-3 " />
+            <button class=" clear btn btn-outline-danger mt-3 mx-3" type="reset" onclick=" ResetInput()">clear</button>
+        </form>
+
+        <label for="search" onclick="GetSearchMood(this.id)" id="Search-Name" class="Search-Name text-capitalize text-white text-center rounded-4 my-4 fs-5">search by course name</label>
+        <label for="search" onclick="GetSearchMood(this.id)" id="Search-Category" class="Search-Category text-capitalize text-white text-center rounded-4 my-4 fs-5">search by course category</label>
+        <input type="search" onkeyup="Search()" class=" Search mb-3 p-2 rounded-3 fs-5 w-100"  id="search" placeholder="Search..." >
+
+
+        <button id="DeleteAllBtn" class="DeleteAllBtn btn btn-outline-danger text-center" ></button>
+
+        <table class="table table table-striped text-white">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Course</th>
+                    <th>Category</th>
+                    <th>Notes</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody  id="data">
+
+            </tbody> 
+        </table>
+
+        <a href="confirmation.html"  class=" finish btn btn-outline-success" >finish</a>
+
+    </div>
+</div>
+
+
+
+
+<script src="assest/js/all.min.js"></script>
+<script src="assest/js/bootstrap.bundle.min.js"></script>
+<script src="assest/js/sweetalert2.all.min.js"></script>
+<script src="assest/js/CRUDScript.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
