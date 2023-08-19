@@ -12,21 +12,8 @@ But the Knowledge Academy is more than just courses; it's a vibrant community of
 Whether you're seeking personal growth, professional advancement, or simply the joy of learning, the Knowledge Academy website is your beacon of enlightenment. Join us today and embark on a journey that promises not only the acquisition of knowledge but the transformation of your mind and spirit. Your adventure begins here
 </p>
 
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/academy.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/1.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/2.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/3.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/4.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/5.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/6.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/7.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/8.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/9.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/10.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/11.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/12.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/13.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/14.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/15.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/CRUD%20image.png" >
-<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/knowledge%20academy/confirmation%20image.png" >
+<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/img/academy.png" >
+<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/img/main%20page%20image.png" >
+<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/img/CRUD%20image.png" >
+<img src="https://github.com/laeth0/knowledge-Academy/blob/main/assest/img/confirmation%20image.png" >
+
